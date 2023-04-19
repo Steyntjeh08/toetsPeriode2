@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #bbb695;
+    background-image: url("assets-2/background.png");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+}
+.rechts{
+    width: 1000px;
+    float: right;
+}
+header{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 800px;
+}
+ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+li{
+    padding-left: 3px;
+    margin-right: 5px;
+    float: left;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #bbb695;
+}
+
+a:hover{
+    color: white;
+}
+.links{
+    float: left;
+    height: 450px;
+    width: 600px;
+    background-color: #bbb695;
+    color: black;
+}
+.dikgedrukt{
+    font-weight: bold;
+}
+.rechterkant{
+    width: 500px;
+    height: auto;
+    background-color: #bbb695;
+    color: black;
+}
+.fotos{
+    background-color: #bbb695;
+    color: black;
+    height: 100px;
+}
+.fotos img {
+    border: 1px solid white;
+    float: left;
+    margin: 5px;
+    height: 90px;
+    width: 90px;
+}
+.rechtsonder{
+    height: 350px;
+    width: 400px;
+    float: left;
+    background-color: #bbb695;
+}
+table{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    border: black 1px solid;
+    border-collapse: collapse;
+    width: 390px;
+}
+td{
+    border: black 1px solid;
+}
+th{
+    background-color: black;
+    color: white;
+}
+footer{
+    clear: left;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    height: 70px;
+    width: auto;
+}
+.linker{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.midden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rechter{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+hr{
+    padding: 10px;
+    color: #bbb695;
+}
